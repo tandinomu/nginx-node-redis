@@ -1,4 +1,4 @@
-## A Counter Web application built using Node.js, Nginx proxy and Redis database
+## A counter web application built using Node.js, Nginx proxy and Redis database
 
 
 
