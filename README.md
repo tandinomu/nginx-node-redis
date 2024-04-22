@@ -1,6 +1,6 @@
-## Compose sample application
+## A Counter Web application built using Node.js, Nginx proxy and Redis database
 
-## Node.js application with Nginx proxy and Redis database
+
 
 Project structure:
 ```
