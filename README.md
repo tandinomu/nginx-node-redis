@@ -19,7 +19,7 @@ Project structure:
 
 
 ```
-[_compose.yaml_](compose.yaml)
+[_compose.yml_](compose.yml)
 ```
 redis:
     image: 'redislabs/redismod'
