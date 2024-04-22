@@ -100,7 +100,7 @@ web2: Total number of visits is: 3
 
 
 
-## Stop and remove the containers
+## Tear down the containers
 
 ```
 $ docker compose down
