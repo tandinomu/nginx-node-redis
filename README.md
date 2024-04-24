@@ -6,7 +6,7 @@ Project structure:
 ```
 .
 ├── README.md
-├── compose.yaml
+├── compose.yml
 ├── nginx
 │   ├── Dockerfile
 │   └── nginx.conf
@@ -22,7 +22,7 @@ Project structure:
 [_compose.yml_](compose.yml)
 ```
 redis:
-    image: 'redislabs/redismod'
+    image: redis
     ports:
       - '6379:6379'
   web1:
@@ -76,7 +76,7 @@ Listing containers must show three containers running and the port mapping as be
 
 
 ```
-docker-compose ps
+docker compose ps
 ```
 
 ## Testing the app
