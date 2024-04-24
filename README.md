@@ -4,7 +4,9 @@
 
 Project structure:
 ```
+tree
 .
+├── LICENSE
 ├── README.md
 ├── compose.yml
 ├── nginx
@@ -12,11 +14,11 @@ Project structure:
 │   └── nginx.conf
 └── web
     ├── Dockerfile
+    ├── package-lock.json
     ├── package.json
     └── server.js
 
-2 directories, 7 files
-
+3 directories, 9 files
 
 ```
 [_compose.yml_](compose.yml)
@@ -48,7 +50,7 @@ services:
     - web2
 ```
 The compose file defines an application with four services `redis`, `nginx`, `web1` and `web2`.
-When deploying the application, docker compose maps port 80 of the nginx service container to port 80 of the host as specified in the file.
+When deploying the application, Docker compose maps port 80 of the nginx service container to port 80 of the host as specified in the file.
 
 
 > ℹ️ **_INFO_**  
