@@ -21,7 +21,9 @@ Project structure:
 ```
 [_compose.yml_](compose.yml)
 ```
-redis:
+
+services:
+  redis:
     image: redis
     ports:
       - '6379:6379'
