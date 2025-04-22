@@ -6,7 +6,7 @@ This practical demonstrates how to run multiple containers and enable communicat
 
 ## Overview
 
-Using docker run works well when we only need one container. But when there is a need of several containers that work together, it gets complicated and mistakes happen easily. In this practical, I learned:
+Using  `docker run` works well when we only need one container. But when there is a need of several containers that work together, it gets complicated and mistakes happen easily. In this practical, I learned:
 
 - How to start multiple containers one by one using docker run
 - How to set up a network so containers can talk to each other
@@ -67,8 +67,11 @@ Verify that all containers are running:
 
 ![ps](./Images/8.png)
 
-Access the application in a browser at http://localhost and refresh several times to see load balancing between web1 and web2:
+Accessed the application in a browser at http://localhost and refresh several times to see load balancing between web1 and web2:
 ![localhost](./Images/10.png)
+
+
+
 ![web2localhost](./Images/11.png)
 
 
